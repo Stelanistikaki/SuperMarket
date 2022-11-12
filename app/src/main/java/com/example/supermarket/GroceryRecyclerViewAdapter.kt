@@ -34,9 +34,9 @@ class GroceryRecyclerViewAdapter(
     override fun onBindViewHolder(holder: GroceryViewHolder, position: Int) {
         holder.nameTextView.text = list[position].itemName
         holder.quantityTextView.text = list[position].itemQuantity.toString()
-        holder.rateTextView.text = "Rs. " + list[position].itemPrice.toString()
-        val itemTotal: Int = list[position].itemPrice * list[position].itemQuantity
-        holder.amountTextView.text = "Rs. " + itemTotal.toString()
+        holder.rateTextView.text = list[position].itemPrice.toString()+" €"
+        val itemTotal: Float = list[position].itemPrice * list[position].itemQuantity
+        holder.amountTextView.text = itemTotal.toString()+" €"
         holder.deleteImageView.setOnClickListener {
             groceryItemClicked.onItemClick(list[position])
         }

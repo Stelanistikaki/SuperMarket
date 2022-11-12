@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity(), GroceryRecyclerViewAdapter.GroceryItem
             val itemPrice: String = itemPriceEdtxt.text.toString()
             if (itemName.isNotEmpty() && itemPrice.isNotEmpty() && itemQuantity.isNotEmpty()) {
                 val qnty: Int = itemQuantity.toInt()
-                val price: Int = itemPrice.toInt()
+                val price: Float = itemPrice.toFloat()
                 val groceryItem = GroceryItem(itemName, qnty, price)
                 groceryViewModel.insert(groceryItem)
                 Toast.makeText(applicationContext, "Item inserted!", Toast.LENGTH_SHORT).show()

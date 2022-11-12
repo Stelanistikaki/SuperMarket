@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Stela/AndroidStudioProjects/SuperMarket/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.174" />
+        <entry key="..\:/Users/Stela/AndroidStudioProjects/SuperMarket/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.174" />
         <entry key="..\:/Users/Stela/AndroidStudioProjects/SuperMarket/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Stela/AndroidStudioProjects/SuperMarket/app/src/main/res/layout/grocery_add_dialog.xml" value="0.25" />
-        <entry key="..\:/Users/Stela/AndroidStudioProjects/SuperMarket/app/src/main/res/layout/grocery_item.xml" value="0.25" />
+        <entry key="..\:/Users/Stela/AndroidStudioProjects/SuperMarket/app/src/main/res/layout/grocery_item.xml" value="0.4" />
       </map>
     </option>
   </component>

@@ -5,8 +5,8 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [GroceryItem::class], version = 1)
-abstract class GroceryDatabase() : RoomDatabase() {
+@Database(entities = [GroceryItem::class], version = 2)
+abstract class GroceryDatabase : RoomDatabase() {
 
     abstract fun getGroceryDao(): GroceryDao
 
